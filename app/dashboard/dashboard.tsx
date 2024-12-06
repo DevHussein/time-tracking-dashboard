@@ -62,9 +62,9 @@ export function Dashboard() {
   const { timeFrame } = loaderData;
 
   return (
-    <div className="p-6 flex flex-col gap-4 desktop:flex-row">
+    <div className="p-6 flex flex-col gap-4 desktop:flex-row desktop:px-[165px] desktop:py-[253px] max-w-screen-mobile desktop:max-w-screen-desktop">
       <TimeTrackingHeadCard />
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[30px]">
+      <div className="grid grid-cols-1 desktop:grid-cols-3 gap-[30px]">
         {data.map((item: DataItem, index: number) => {
           const { current, previous } =
             item.timeframes[timeFrame as keyof Timeframes];

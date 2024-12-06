@@ -27,6 +27,7 @@ export default {
         "very-dark-blue": "hsl(226, 43%, 10%)",
         "dark-blue": "hsl(236, 45%, 20%)",
         "desaturated-blue": "hsl(235, 45%, 61%)",
+        "dark-desaturated-blue": "hsl(236, 41%, 34%)",
         "pale-blue": "hsl(236, 100%, 87%)",
       },
       fontFamily: {
